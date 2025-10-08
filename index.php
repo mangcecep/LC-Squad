@@ -16,7 +16,7 @@ if ($_POST) {
     if (isset($valid_users[$username]) && $valid_users[$username] === $password) {
         $_SESSION['logged_in'] = true;
         $_SESSION['username'] = $username;
-        header('Location: dashboard.php');
+        header('Location: ../dashboard/dashboard.php');
         exit;
     } else {
         $error_message = 'Invalid username or password';
@@ -31,7 +31,7 @@ if ($_POST) {
     <meta charset="utf-8" />
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>SARPRAS - Login</title>
+    <title>InventoryKu - Login</title>
   </head>
   <style>
     .login-page {
@@ -308,8 +308,8 @@ if ($_POST) {
         </div>
         <div class="rectangle-5"></div>
         <div class="overlap-2">
-          <div class="text-wrapper-4">SARPRAS</div>
-          <div class="text-wrapper-5">SMK PRAKARYA INTERNASIONAL</div>
+          <div class="text-wrapper-4">InventoryKu</div>
+          <div class="text-wrapper-5">By LC-Squad</div>
           <img
             class="line"
             src="https://c.animaapp.com/mfbursqboDFD0s/img/line-10.svg"

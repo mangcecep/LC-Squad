@@ -1,0 +1,363 @@
+.homepage {
+  background-color: #bddbf1;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 1024px;
+  position: relative;
+}
+
+.homepage .group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1444px;
+  height: 142px;
+}
+
+.homepage .rectangle {
+  width: 1440px;
+  height: 142px;
+  background-color: #005497;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.homepage .text-wrapper {
+  position: absolute;
+  top: 39px;
+  left: 139px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .div {
+  position: absolute;
+  top: 39px;
+  left: 1136px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .img {
+  position: absolute;
+  top: 18px;
+  left: 1317px;
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.homepage .img:hover {
+  transform: scale(1.1);
+}
+
+.homepage .button-barang {
+  position: absolute;
+  top: 253px;
+  left: 164px;
+  width: 279px;
+  height: 293px;
+}
+
+.homepage .rectangle-2 {
+  width: 277px;
+  height: 293px;
+  background-color: #ffffff;
+  border-radius: 11px;
+  box-shadow: 5px 10px 10px #00000040;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.homepage .vector {
+  position: absolute;
+  width: 53.46%;
+  height: 50.67%;
+  top: 15.02%;
+  left: 21.51%;
+}
+
+.homepage .text-wrapper-2 {
+  position: absolute;
+  top: 214px;
+  left: 66px;
+  font-family: "Teachers", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .button-input {
+  position: absolute;
+  top: 253px;
+  left: 602px;
+  width: 279px;
+  height: 293px;
+}
+
+.homepage .div-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 277px;
+  height: 293px;
+  background-color: #ffffff;
+  border-radius: 11px;
+  box-shadow: 0px 10px 20px #00000040;
+}
+
+.homepage .group-2 {
+  position: absolute;
+  top: 56px;
+  left: 65px;
+  width: 140px;
+  height: 127px;
+}
+
+.homepage .text-wrapper-3 {
+  position: absolute;
+  top: 214px;
+  left: 90px;
+  font-family: "Teachers", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .button-output {
+  position: absolute;
+  top: 253px;
+  left: 1048px;
+  width: 279px;
+  height: 293px;
+}
+
+.homepage .group-3 {
+  position: absolute;
+  top: 25px;
+  left: 51px;
+  width: 168px;
+  height: 168px;
+}
+
+.homepage .button-peminjaman {
+  position: absolute;
+  top: 620px;
+  left: 825px;
+  width: 279px;
+  height: 293px;
+}
+
+.homepage .group-4 {
+  position: absolute;
+  top: 48px;
+  left: 63px;
+  width: 140px;
+  height: 120px;
+}
+
+.homepage .text-wrapper-4 {
+  position: absolute;
+  top: 195px;
+  left: 24px;
+  font-family: "Teachers", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .group-5 {
+  position: absolute;
+  top: 620px;
+  left: 375px;
+  width: 279px;
+  height: 293px;
+}
+
+.homepage .button-history {
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  width: 317px;
+  height: 333px;
+}
+
+.homepage .vector-2 {
+  position: absolute;
+  width: 46.59%;
+  height: 40.27%;
+  top: 15.36%;
+  left: 24.01%;
+}
+
+.homepage .text-wrapper-5 {
+  position: absolute;
+  top: 195px;
+  left: 68px;
+  font-family: "Teachers", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .button-logo-home {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 120px;
+  height: 120px;
+}
+
+/* Profile Popup Styles */
+.profile-popup {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.3s;
+}
+
+.profile-popup.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  animation: slideDown 0.3s;
+}
+
+.popup-header {
+  background-color: #005497;
+  color: white;
+  padding: 20px;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup-header h2 {
+  margin: 0;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.close-btn {
+  font-size: 32px;
+  cursor: pointer;
+  line-height: 1;
+  transition: transform 0.2s;
+}
+
+.close-btn:hover {
+  transform: scale(1.2);
+}
+
+.popup-body {
+  padding: 30px;
+  text-align: center;
+}
+
+.popup-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #005497;
+}
+
+.admin-name {
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin: 10px 0 5px 0;
+}
+
+.admin-email {
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+.popup-footer {
+  padding: 0 30px 30px 30px;
+}
+
+.logout-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+  transform: translateY(-2px);
+}
+
+.logout-btn:active {
+  transform: translateY(0);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
